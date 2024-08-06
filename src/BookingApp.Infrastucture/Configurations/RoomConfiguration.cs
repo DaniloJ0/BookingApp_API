@@ -1,7 +1,6 @@
 ﻿using BookingApp.Domain.Models.Rooms;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Reflection.Emit;
 
 namespace BookingApp.Infrastructure.Configurations
 {
@@ -33,6 +32,11 @@ namespace BookingApp.Infrastructure.Configurations
             .HasOne(r => r.RoomType)
             .WithMany(rt => rt.Rooms)
             .HasForeignKey(r => r.RoomTypeId);
+
+            builder
+            .HasOne(r => r.Hotel)
+            .WithMany(h => h.Rooms)
+            .HasForeignKey(r => r.HotelId);
 
             //builder
             //.HasMany(r => r.Reviews)

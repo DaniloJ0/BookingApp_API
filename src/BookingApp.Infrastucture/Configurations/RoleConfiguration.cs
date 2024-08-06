@@ -15,10 +15,14 @@ namespace BookingApp.Infrastructure.Configurations
             userId => userId.Value,
                 value => new RoleId(value));
 
+            builder.Property(u => u.Name).IsRequired();
+            builder.Property(u => u.NameEnglish).IsRequired();
+
             builder.HasData(
             new Role { Id = new RoleId(1), Name = "Administrador", NameEnglish= "Admin"},
             new Role { Id = new RoleId(2), Name = "Cliente", NameEnglish="Customer" }
             );
+
         }
     }
 }
