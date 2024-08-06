@@ -19,8 +19,9 @@ namespace BookingApp.Domain.Models.Users
         public string Name { get; set; }
         public string Email { get; set; }
         public string PasswordHash { get; set; }
-        public RoleId Role { get; set; } // "Admin", "Customer"
         public string PhoneNumber { get; set; } 
-        public ICollection<Reservation> Reservations { get; set; }
+        public RoleId Role { get; set; } // "Admin", "Customer"  
+        public List<Reservation> Reservations { get; set; }
+        //public ICollection<Review> Reviews { get; set; } // User reviews
     }
 }
