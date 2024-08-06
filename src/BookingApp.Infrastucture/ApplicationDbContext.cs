@@ -1,4 +1,4 @@
-﻿using BookingApp.Domain.Models.User;
+﻿using BookingApp.Domain.Models.Users;
 using BookingApp.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
 

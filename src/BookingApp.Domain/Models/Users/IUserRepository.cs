@@ -1,4 +1,4 @@
-﻿namespace BookingApp.Domain.Models.User
+﻿namespace BookingApp.Domain.Models.Users
 {
     public interface IUserRepository
     {
