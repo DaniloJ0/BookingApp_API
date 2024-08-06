@@ -5,13 +5,13 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C35F249-97B6-4FB5-B2B5-F111214B5376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Application", "src\BookingApp.Application\BookingApp.Application.csproj", "{20739924-6D82-4025-8FC9-5FB1A86DC428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Application", "src\BookingApp.Application\BookingApp.Application.csproj", "{20739924-6D82-4025-8FC9-5FB1A86DC428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Infrastucture", "src\BookingApp.Infrastucture\BookingApp.Infrastucture.csproj", "{10D8E083-108A-4FCC-BF99-04F342C1B136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Infrastructure", "src\BookingApp.Infrastucture\BookingApp.Infrastructure.csproj", "{10D8E083-108A-4FCC-BF99-04F342C1B136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Domain", "src\BookingApp.Domain\BookingApp.Domain.csproj", "{99EF0D82-7D6D-4AEB-BC82-E901B7A96D78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Domain", "src\BookingApp.Domain\BookingApp.Domain.csproj", "{99EF0D82-7D6D-4AEB-BC82-E901B7A96D78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.API", "src\BookingApp.API\BookingApp.API.csproj", "{F86FEC64-4904-4A02-889F-17007EF68420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.API", "src\BookingApp.API\BookingApp.API.csproj", "{F86FEC64-4904-4A02-889F-17007EF68420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
